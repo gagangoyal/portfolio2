@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagan Goyal - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">GG</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Gagan Goyal</h1>
+            <h2>Data Engineer</h2>
+            <p>Experienced, self-motivated, result-oriented, problem-solving Data Engineer with good communication and leadership skills.</p>
+            <div class="social-links">
+                <a href="mailto:gagangoyal.cs@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/gagan-goyal" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <p>I am a Data Engineer with nearly 6 years of experience working on modern technologies like PySpark, ADF, Databricks, Delta Lake, Cosmos DB, Hadoop, SQL, and Python. I have B1/B2 USA VISA valid till 2028.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Noida, Uttar Pradesh</p>
+                    <p><i class="fas fa-phone"></i> +91 8561920884</p>
+                    <p><i class="fas fa-envelope"></i> gagangoyal.cs@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <!-- WNS Analytics Projects -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h3>WNS Analytics</h3>
+                        <span class="date">JUN 2023 - PRESENT</span>
+                        
+                        <div class="project">
+                            <h4>Store Profile and Behaviour</h4>
+                            <p>Created reports for store profile and store behavior KPIs like Revenue, ACV, ABV, ABU, AUP, customers etc.</p>
+                            <ul>
+                                <li>Developed SQL scripts to implement business logic</li>
+                                <li>Created step function workflow</li>
+                                <li>Created Glue jobs to perform ETL operation</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>AWS Glue</span>
+                                <span>Step Function</span>
+                                <span>Redshift</span>
+                                <span>SQL</span>
+                                <span>Python</span>
+                                <span>Qlik</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>All Inclusive (Hospitality)</h4>
+                            <p>Created packages by including hotel amenities that customer buys together frequently and identify the relation between encrypted Json payloads.</p>
+                            <ul>
+                                <li>Created All Inclusive packages of amenities that customer buys together</li>
+                                <li>Enhanced the data model and added additional layer of staging tables</li>
+                                <li>Identified the links between tables and pull out the Stay Enhancements on reservation level</li>
+                                <li>Developed python code to extract payloads, performing decryption, formatting and flattening Json</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Google Big Query</span>
+                                <span>VS Code</span>
+                                <span>Jupyter Notebook</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>Global Canvas – MDR Build</h4>
+                            <p>Migrated from Dataroma reports (Salesforce) to Power BI using Delta Lake in Databricks and implemented UI-level changes.</p>
+                            <ul>
+                                <li>Migrated datasets from Dataroma (Salesforce) to Azure Databricks</li>
+                                <li>Analyzed over 22 datasets from Dataroma, determining join conditions</li>
+                                <li>Developed PySpark code to read and join datasets with varying schemas</li>
+                                <li>Created workflow jobs and alert system for tracking failures</li>
+                                <li>Built Power BI reports from scratch using Databricks gold tables</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Azure Databricks</span>
+                                <span>Delta Lake</span>
+                                <span>Dataroma</span>
+                                <span>Azure DevOps</span>
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>Abacus Migration</h4>
+                            <p>Migrated Power BI reports from IBM Abacus to Delta Lake in Databricks and implemented UI-level changes.</p>
+                            <ul>
+                                <li>Migrated IBM Abacus SQL scripts to Databricks</li>
+                                <li>Created workflow jobs and alert system for tracking failures</li>
+                                <li>Updated Power BI report connections and made UI adjustments</li>
+                                <li>Developed PySpark code for file transfers between storage containers</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Azure Databricks</span>
+                                <span>Delta Lake</span>
+                                <span>Azure DevOps</span>
+                                <span>Power BI</span>
+                                <span>ADLS2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Concentrix Projects -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h3>Concentrix</h3>
+                        <span class="date">OCT 2021 - MAY 2023</span>
+                        
+                        <div class="project">
+                            <h4>Build Modern Data Warehouse</h4>
+                            <p>Transitioned from traditional data storage to a modern data warehouse.</p>
+                            <ul>
+                                <li>Developed Azure Data Factory (ADF) pipelines for ETL tasks</li>
+                                <li>Created automated, generic pipeline using procedural framework parameters</li>
+                                <li>Developed stored procedures for data transfer between layers</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>ADF</span>
+                                <span>SSMS</span>
+                                <span>Azure DevOps</span>
+                                <span>Visual Studio</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>Epicor Migration</h4>
+                            <p>Migrated 8 databases from on-premises SQL Server to Azure SQL Server.</p>
+                            <ul>
+                                <li>Developed ADF pipelines for data migration</li>
+                                <li>Created automated pipeline for table structure and data transfer</li>
+                                <li>Used ADLS Gen2 as intermediate storage</li>
+                                <li>Developed Python script for data validation</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>ADF</span>
+                                <span>Azure Databricks</span>
+                                <span>Azure SQL DB</span>
+                                <span>Azure DevOps</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>Hadoop-Azure Migration</h4>
+                            <p>Migrated data from Hadoop to Azure environment, replicating existing tables and processes.</p>
+                            <ul>
+                                <li>Migrated ETL pipeline stages to Databricks jobs</li>
+                                <li>Converted Jython code into Spark</li>
+                                <li>Implemented data insertion logic for Cosmos DB</li>
+                                <li>Developed ADF pipelines for data transfer</li>
+                                <li>Created validation scripts and transitioned Flume jobs</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>ADF</span>
+                                <span>Azure Databricks</span>
+                                <span>Delta Lake</span>
+                                <span>Cosmos DB</span>
+                                <span>ADLS gen2</span>
+                                <span>Azure Blob</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mindtree Projects -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h3>Mindtree</h3>
+                        <span class="date">JUN 2019 - OCT 2021</span>
+                        
+                        <div class="project">
+                            <h4>OSA (On Shelf Availability)</h4>
+                            <p>Addressed revenue loss due to out-of-stock products through data analysis and reporting.</p>
+                            <ul>
+                                <li>Developed PySpark modules for data processing</li>
+                                <li>Managed data ingestion and optimization</li>
+                                <li>Set up Azure services and configured ADF components</li>
+                                <li>Designed and developed Delta and SQL tables</li>
+                                <li>Created validation scripts</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Databricks</span>
+                                <span>Pyspark</span>
+                                <span>ADF</span>
+                                <span>Microsoft SQL server</span>
+                                <span>LogicApp</span>
+                                <span>Azure DevOps</span>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h4>Data Garage</h4>
+                            <p>Managed large volumes of data using Azure services.</p>
+                            <ul>
+                                <li>Processed Avro files</li>
+                                <li>Performed data wrangling and ingestion</li>
+                                <li>Created and configured ADF components</li>
+                                <li>Developed validation scripts</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Databricks</span>
+                                <span>Pyspark</span>
+                                <span>Python</span>
+                                <span>Azure DW</span>
+                                <span>ADF</span>
+                                <span>Microsoft SQL server</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Cloud Services</h3>
+                    <div class="skill-items">
+                        <span>Azure Databricks</span>
+                        <span>Azure Data Factory</span>
+                        <span>Azure SQL Database</span>
+                        <span>Azure Storage Explorer</span>
+                        <span>Azure Data Lake Storage</span>
+                        <span>Azure Blob Storage</span>
+                        <span>Cosmos DB</span>
+                        <span>Azure DevOps</span>
+                        <span>Google Big Query</span>
+                        <span>Jupyter Notebook</span>
+                        <span>Amazon Glue</span>
+                        <span>Step Functions</span>
+                        <span>Redshift</span>
+                        <span>Event Bridge</span>
+                    </div>
+                </div>
+                <!-- Add other skill categories -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-item" data-aos="fade-up">
+                <h3>B.Tech (Computer Science)</h3>
+                <p>JECRC Foundation, Jaipur</p>
+                <span class="date">May 2019</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact</h2>
+            <div class="contact-content" data-aos="fade-up">
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Noida, Uttar Pradesh</p>
+                    <p><i class="fas fa-phone"></i> +91 8561920884</p>
+                    <p><i class="fas fa-envelope"></i> gagangoyal.cs@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:gagangoyal.cs@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/gagan-goyal" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gagan Goyal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
